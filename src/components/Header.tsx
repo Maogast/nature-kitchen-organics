@@ -88,9 +88,9 @@ const Header: React.FC = () => {
             <Link to="/" className="btn primary">
               Shop Now
             </Link>
-            <Link to="/discover" className="btn secondary">
+           {/* <Link to="/discover" className="btn secondary">
               Discover More
-            </Link>
+            </Link>*/}
           </div>
         </div>
         {/* Background image is set via CSS */}

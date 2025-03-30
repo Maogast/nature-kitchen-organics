@@ -559,3 +559,24 @@ CHECKOUT PAGE STYLES
 .social-icons img.social-icon:hover {
   transform: scale(1.1); /* Slight zoom effect on hover */
 }
+
+/* =================================================================
+BUTTON STYLES
+================================================================= */
+.btn.primary {
+    font-size: 1.2rem; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    color: #ffffff; /* White text color */
+    background-color: #ff5722; /* Bright and attractive background color */
+    padding: 12px 24px; /* Add padding for a larger button */
+    border-radius: 8px; /* Rounded corners */
+    text-transform: uppercase; /* Make the text uppercase */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.btn.primary:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
